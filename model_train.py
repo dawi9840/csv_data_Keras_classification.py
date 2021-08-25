@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
     dataset_csv_file = './datasets/heart.csv'
     target_value = 'target'
-    all_model = './model_weights/all_model/08.25/heart_disease_yo' # all_model: Model struct and model weights.
+    all_model = './model_weights/all_model/08.25/heart_disease_modify' # all_model: Model struct and model weights.
 
     heart_dataset = CsvDataset(file=dataset_csv_file)
     train_ds, val_ds = heart_dataset.df_to_datasets(target=target_value)
