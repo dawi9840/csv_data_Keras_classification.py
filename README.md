@@ -2,7 +2,7 @@
 Modify code from Keras: structured data classification froom scratch.   
 
 # Scripts 
-**csv_data_Keras_classification.py** - From Keras documents[Structured data classification from scratch](https://keras.io/examples/structured_data/structured_data_classification_from_scratch/), I learn how to use csv file to be classified.
+**csv_data_Keras_classification.py** - From Keras documents: [Structured data classification from scratch](https://keras.io/examples/structured_data/structured_data_classification_from_scratch/), I learn how to use csv file to be classified.
 
 **model_train.py** - Modify from 'csv_data_Keras_classification.py' file which I can clearly to use model train.
 
