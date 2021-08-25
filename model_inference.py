@@ -4,8 +4,8 @@ from tensorflow.keras import layers
 
 if __name__ == '__main__':
 
-    # all_model = './model_weights/all_model/08.25/heart_disease_yo'
-    all_model = './model_weights/all_model/08.25/heart_disease_origin'
+    all_model = './model_weights/all_model/08.25/heart_disease_modify'
+    # all_model = './model_weights/all_model/08.25/heart_disease_origin'
  
     # Loads the model and training weights.
     model = keras.models.load_model(all_model)
