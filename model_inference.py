@@ -46,7 +46,9 @@ if __name__ == '__main__':
 
     input_dict = {name: tf.convert_to_tensor([value]) for name, value in sample2.items()}
 
-    predictions = model.predict(input_dict)
+    outputs = model.predict(input_dict)
+
+    heart_disease = 'heart_disease'
 
     print('*'*30)
-    print(f'heart disease prob: {round(predictions[0][0]*100, 2)} %')
+    print(f'class: {heart_disease}, prob: {round(outputs[0][0]*100, 2)} %')
